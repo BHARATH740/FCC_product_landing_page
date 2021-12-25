@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font: poppins;
+    background-image: url('background-img.jpg');
+} 
+
+#main {
+    width : 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px rgb(207, 195, 195);
+    z-index: 2;
+
+}
+
+.logo img{
+    width: 45px;
+    height: 45px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+}
+
+.menu li a {
+    height: 40px;
+    line-height: 45px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+h2 {
+    color:rgb(85, 81, 81);
+}
+
+nav ul :hover {
+    background-color: rgb(79, 211, 211);
+}
+
+#video {
+    align-self: center;
+    z-index: 2em;
+    margin: 20% 20% 20% 20%;
+    box-shadow: 5px 5px 5px 5px #423f3f;
+}
+
+form {
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5em;
+    box-shadow: 5px 10px 5px 10px #423f3f;
+    margin: 25% 25% 25% 25%;
+}
+
+.fm {
+    margin-top: 1.5em;
+}
+
+#form-submit {
+    background-color: chocolate;
+    margin-top: 1.5em;
+}
+
+#features {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    justify-content: space-around;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-right: 1em;
+    box-shadow: 5px 10px 5px 10px #423f3f;
+}
+
+ol {
+    text-align: left;
+    padding-left: 45%;
+}
+
